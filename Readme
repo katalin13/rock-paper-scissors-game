@@ -1,3 +1,15 @@
 A simple version of the rock paper scissor game.
 
+How to play:
+  git clone git@github.com:katalin13/rock-paper-scissors-game.git ( or download it as a zip file )
+  cd lib  ( in cmd/prompt shell go into the location of the files )
+  ruby rps_game.rb
+  
+Rules:
+  Scissors cut Paper
+  Paper covers Rock
+  Rock crushes Scissors
+  
+Have fun!
+
 *Still need to sort out the 'no' answer so you don't need to give it twice.

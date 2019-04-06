@@ -1,7 +1,7 @@
 puts 'Welcome to a game of luck:'
-puts '-'*31
-puts '      Rock Paper Scissor'
-puts 'Your component will be The Computer!'
+puts '-'*26
+puts '    Rock Paper Scissor'
+puts 'Your component will be The Computer !'
 puts 'Willing to play?'
 user_input = gets.chomp!
 
@@ -14,11 +14,11 @@ def computer_game(player)
   else
     case player
       when 'rock'
-        cpu == 'scissors' ? 'You won!' : 'You lose!'
+        cpu == 'scissors' ? 'You won!' : 'You lost!'
       when 'paper'
-        cpu == 'rock' ? 'You won!' : 'You lose!'
+        cpu == 'rock' ? 'You won!' : 'You lost!'
       when 'scissors' 
-        cpu == 'paper' ? 'You won!' : 'You lose!'
+        cpu == 'paper' ? 'You won!' : 'You lost!'
     end
   end
   puts "#{cpu}, #{result}"

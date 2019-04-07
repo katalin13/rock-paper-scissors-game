@@ -1,7 +1,7 @@
 puts 'Welcome to a game of luck:'
 puts '-'*26
 puts '    Rock Paper Scissor'
-puts 'Your component will be The Computer !'
+puts 'Your opponent will be The Computer !'
 puts 'Willing to play?'
 user_input = gets.chomp!
 
